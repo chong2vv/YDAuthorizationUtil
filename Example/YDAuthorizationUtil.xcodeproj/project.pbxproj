@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		040D27B2C762652E8602BFA9 /* Pods-YDAuthorizationUtil_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDAuthorizationUtil_Tests.release.xcconfig"; path = "Target Support Files/Pods-YDAuthorizationUtil_Tests/Pods-YDAuthorizationUtil_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		10BD2F59E079436C0B213F99 /* Pods-YDAuthorizationUtil_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDAuthorizationUtil_Example.release.xcconfig"; path = "Target Support Files/Pods-YDAuthorizationUtil_Example/Pods-YDAuthorizationUtil_Example.release.xcconfig"; sourceTree = "<group>"; };
-		1381E2112A76E1E5F16830F8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1381E2112A76E1E5F16830F8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		30583434D65F8F36491B2464 /* Pods-YDAuthorizationUtil_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDAuthorizationUtil_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YDAuthorizationUtil_Tests/Pods-YDAuthorizationUtil_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* YDAuthorizationUtil_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YDAuthorizationUtil_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -64,9 +64,9 @@
 		828498EA22E2B5A33BA00FF6 /* Pods_YDAuthorizationUtil_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YDAuthorizationUtil_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		937136BF0A1BAF0917EB6579 /* Pods_YDAuthorizationUtil_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YDAuthorizationUtil_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A5306C0414AB928CF9ED34DF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A5306C0414AB928CF9ED34DF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CDA57D976445F2C88C4EAB0F /* Pods-YDAuthorizationUtil_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDAuthorizationUtil_Example.debug.xcconfig"; path = "Target Support Files/Pods-YDAuthorizationUtil_Example/Pods-YDAuthorizationUtil_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D96364927F474EA6E22BFA97 /* YDAuthorizationUtil.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YDAuthorizationUtil.podspec; path = ../YDAuthorizationUtil.podspec; sourceTree = "<group>"; };
+		D96364927F474EA6E22BFA97 /* YDAuthorizationUtil.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YDAuthorizationUtil.podspec; path = ../YDAuthorizationUtil.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				30583434D65F8F36491B2464 /* Pods-YDAuthorizationUtil_Tests.debug.xcconfig */,
 				040D27B2C762652E8602BFA9 /* Pods-YDAuthorizationUtil_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -468,7 +468,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -501,7 +501,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
