@@ -1,8 +1,15 @@
-# macOS
-.DS_Store
+# Created by https://www.gitignore.io/api/xcode
 
+### Xcode ###
 # Xcode
+#
+# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+## Build generated
 build/
+DerivedData/
+
+## Various settings
 *.pbxuser
 !default.pbxuser
 *.mode1v3
@@ -12,25 +19,36 @@ build/
 *.perspectivev3
 !default.perspectivev3
 xcuserdata/
-*.xccheckout
+
+## Other
 *.moved-aside
-DerivedData
-*.hmap
-*.ipa
+*.xccheckout
+*.xcscmblueprint
 
-# Bundler
-.bundle
+### Xcode Patch ###
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddat
+!*/xcuserdata/admin.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlista/
+!*.xcworkspace/contents.xcworkspacedata
+/*.gcno
 
-# Add this line if you want to avoid checking in source code from Carthage dependencies.
-# Carthage/Checkouts
 
-Carthage/Build
+# End of https://www.gitignore.io/api/xcode
 
-# We recommend against adding the Pods directory to your .gitignore. However
-# you should judge for yourself, the pros and cons are mentioned at:
-# https://guides.cocoapods.org/using/using-cocoapods.html#should-i-ignore-the-pods-directory-in-source-control
-# 
-# Note: if you ignore the Pods directory, make sure to uncomment
-# `pod install` in .travis.yml
-#
-# Pods/
+
+
+# Created by https://www.gitignore.io/api/cocoapods
+
+### CocoaPods ###
+## CocoaPods GitIgnore Template
+
+# CocoaPods - Only use to conserve bandwidth / Save time on Pushing
+#           - Also handy if you have a large number of dependant pods
+#           - AS PER https://guides.cocoapods.org/using/using-cocoapods.html NEVER IGNORE THE LOCK FILE
+Pods/
+Podfile.lock
+.DS_Store
+
+# End of https://www.gitignore.io/api/cocoapods
+
